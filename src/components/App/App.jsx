@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./App.css";
+import "../../reset.css";
 
 import SearchBar from "../SearchBar";
 import WeatherInfo from "../WeatherInfo";
@@ -11,7 +12,6 @@ const App = () => {
   const handleSearchCity = (newSelectedCity) => {
     const newCity = newSelectedCity;
     setCity(newCity);
-    console.log(newCity);
   };
 
   return (

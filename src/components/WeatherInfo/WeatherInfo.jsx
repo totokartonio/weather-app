@@ -50,14 +50,12 @@ const WeatherInfo = ({ city }) => {
         Tempreature: <span>{temperature}°C</span>
       </p>
       {weatherCode && <Picture weatherCode={weatherCode} />}
-      <p>
-        Weather: <span>{weather}</span>
-      </p>
+      <p>Weather: {weather}</p>
       <p>
         Humidity: <span>{humidity}%</span>
       </p>
       <p>
-        Wind: <span>{windSpeed} km/h</span>
+        Wind: <span>{windSpeed}</span> km/h
       </p>
     </div>
   );
