@@ -1,9 +1,5 @@
-const CITY_COORDINATES = {
-  Budapest: { lat: 47.4979, lon: 19.0402 },
-  Istanbul: { lat: 41.0082, lon: 28.9784 },
-  Amsterdam: { lat: 52.3676, lon: 4.9041 },
-  Berlin: { lat: 52.52, lon: 13.405 },
-};
+const ENDPOINT_WEATHER = "https://api.open-meteo.com/v1/forecast";
+const ENDPOINT_GEO = "https://geocoding-api.open-meteo.com/v1/search";
 
 const WEATHER_INTERPRETATION_CODES = {
   0: ["Clear sky", "clear-sky.png"],
@@ -36,4 +32,4 @@ const WEATHER_INTERPRETATION_CODES = {
   99: ["Thunderstorm: Slight or moderate", "stormy.png"],
 };
 
-export { CITY_COORDINATES, WEATHER_INTERPRETATION_CODES };
+export { ENDPOINT_WEATHER, ENDPOINT_GEO, WEATHER_INTERPRETATION_CODES };
