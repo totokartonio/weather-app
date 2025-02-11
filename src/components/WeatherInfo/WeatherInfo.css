@@ -5,6 +5,7 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   width: 250px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .weather-info-wrapper p {
@@ -25,4 +26,25 @@
 .weather-info-wrapper p {
   font-size: 18px;
   color: #777;
+}
+
+.weather-info-illustration {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-info-illustration img {
+  width: 64px; /* Adjust the size of the weather image */
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 2px solid #ddd; /* Optional border for better separation */
+  padding: 5px;
+}
+
+.weather-info-illustration img:hover {
+  transform: scale(1.08);
 }
